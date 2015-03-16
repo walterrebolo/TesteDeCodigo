@@ -8,7 +8,7 @@ int main()
     int n;
     printf("insira um numero: \n");
     scanf("%d", &n);
-    printf("O fatorial de %d = %d", n, FatorialInt(n));
+    printf("O fatorial de %d = %d", FatorialInt(n));
 
     return 0;
 }
